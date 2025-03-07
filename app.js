@@ -33,7 +33,7 @@ function sortearAmigo(){
             document.getElementById('resultado').innerHTML = `El amigo secreto es: <strong>${amigoSecreto}</strong>`;
         }
     }    
-    if (amigoSorteado.length === nombreAmigo.length + 1){
+    if (amigoSorteado.length === nombreAmigo.length){
         alert('Todos los amigos de la lista han sido sorteados')
     }          
     amigosAgregados(); 
